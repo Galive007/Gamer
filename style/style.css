@@ -50,3 +50,77 @@
     font-size: 22px;
 }
 /* nav section end here */
+/* main section start here */
+header,main{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+/* main section end here */
+/* banner section start here */
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .header-bg{
+    background-image: url("../resources/Group\ 14.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    height: 54px;
+    width: 50%;
+} */
+.header-left{
+    width: 50%;
+    padding-top: 120px;
+    height: 545px;
+    padding-left: 120px;
+    background-image: url("../resources/Group\ 14.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-right{
+    width: 50%;
+    /* border: 1px solid red; */
+    
+}
+.header-right img{
+    width: 100%;
+}
+.text-play{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.text-goat{
+    font-size: 4.5em;
+    font-weight: 800;
+    line-height: 5rem;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color: transparent;
+}
+.banner-paragraph{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #534c64;
+    padding-bottom: 10px;
+}
+.buttons{
+    margin-top: 15px;
+}
+.red-btn,.lightblue-btn{
+    padding: 20px 40px;
+    color: #fff;
+    background-color: #ff42a5;
+    border: none;
+    border-radius: 48px;
+}
+.lightblue-btn{
+    background-color: #4EC5F7;
+}
+/* banner section end here */
