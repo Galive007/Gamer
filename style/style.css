@@ -15,6 +15,9 @@
     color: transparent;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.437);
 }
+.hide{
+    display: none;
+}
 /* nav section start here */
 .nav-container{
     padding: 30px 0;
@@ -29,6 +32,7 @@
     /* border: 1px solid red; */
 }
 .nav-left{
+    cursor: pointer;
     display: flex;
     align-items: center;
     font-size: 2.25em;
@@ -36,7 +40,8 @@
     cursor: pointer;
 }
 .nav-right{
-
+    cursor: pointer;
+    display: flex;
 }
 .nav-btn{
     border: none;
@@ -179,12 +184,14 @@ header,main{
     padding: 15px 0;
 }
 .gamer-para2{
+    color: #534C64;
     font-size: 1.3rem;
     font-weight: 500;
     line-height: 35px;
     padding: 5px 0;
 }
 .gamer-note{
+    color: #534C64;
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 35px;
