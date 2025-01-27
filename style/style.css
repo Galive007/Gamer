@@ -9,6 +9,12 @@
     box-sizing: border-box;
     font-family: "Work Sans", serif;
 }
+.common-tittle-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.437);
+}
 /* nav section start here */
 .nav-container{
     padding: 30px 0;
@@ -102,13 +108,21 @@ header,main{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     color: transparent;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.437);
+}
+.goat-overlay{
+    text-shadow: none;
 }
 .banner-paragraph{
     font-size: 20px;
     font-weight: 500;
     line-height: 20px;
     color: #534c64;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+}
+.banner-paragraph i{
+    margin-right: 10px;
+    color: #F948B2;
 }
 .buttons{
     margin-top: 15px;
@@ -119,8 +133,60 @@ header,main{
     background-color: #ff42a5;
     border: none;
     border-radius: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
 }
 .lightblue-btn{
     background-color: #4EC5F7;
 }
 /* banner section end here */
+/* gamer section start here */
+.we-gamer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255,249,252);
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 30px 0;
+}
+.we-gamer-left{
+    width: 60%;
+    /* border: 1px solid red; */
+}
+.we-gamer-left img{
+    width: 100%;
+}
+.we-gamer-right{
+    width: 40%;
+    text-align: right;
+    /* padding-left: 120PX; */
+}
+
+.gamer-tittle{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 50px;
+}
+.gamer-tittle-overlay{
+    font-size: 3rem;
+    text-shadow: none;
+}
+.gamer-para1{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 15px 0;
+}
+.gamer-para2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 35px;
+    padding: 5px 0;
+}
+.gamer-note{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 35px;
+}
+/* gamer section end here */
